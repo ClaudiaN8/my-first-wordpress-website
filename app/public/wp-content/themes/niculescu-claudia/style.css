@@ -1,0 +1,76 @@
+/*
+Theme Name: Niculescu Claudia
+Theme URI: https://niculescu.com/theme
+Author: Niculescu Claudia
+Author URI: https://niculescu.com/
+Description: Oaia aia e a ei. O iau eu.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: niculescu-claudia
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.navbar-logo{
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.post-content{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:darkgreen;
+}
+
+a:hover{
+    color:darkgreen;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+}
+
+.card{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+nav.pagination{
+    display: table; 
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.form-inline {
+    display: flex;
+}
+
+.form-control {
+    margin-right: 10px;
+}
+
+iframe {
+    padding: 15px 15px 15px 0;
+}
+
+.checkbox-without-margins .wpcf7-list-item{
+    margin: 0;
+}
+
+.contact-infos {
+    display: flex;
+    justify-items: space-around;
+    flex-direction: column;
+    padding: 50px 0px;
+}

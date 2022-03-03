@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 64px;
+    min-height: 100vh;
+}
+
+/* h1 {
+    padding: 20px 0;
+} */
+
+iframe {
+    padding: 15px 15px 15px 0;
+}
+
+.contact {
+    padding: 50px 0px;
+}
+.experiment{
+    background-color:coral ;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #181819;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
